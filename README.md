@@ -115,7 +115,7 @@ can reach any of them on demand.
 
 ```bash
 # 1. Clone
-git clone https://github.com/avijain1412/WealthWise-AI.git
+git clone https://github.com/divyanshi-katiyar/WealthWise-AI.git
 cd WealthWise-AI
 
 # 2. Install
