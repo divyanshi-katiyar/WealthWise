@@ -5,7 +5,11 @@ dashboard showing KPIs, budgets, and charts.
 
     streamlit run src/streamlit_ui/app.py
 """
+import sys
+from pathlib import Path
 
+# Make the repo root importable on Streamlit Cloud (so `from src...` works)
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 import io
 import uuid
 
